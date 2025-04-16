@@ -36,19 +36,29 @@ document.addEventListener('DOMContentLoaded', () => {
   });
     const projetos = {
       kanban: {
-        titulo: 'Kanban App',
-        descricao: 'Aplicação completa de gerenciamento de tarefas estilo Trello. Feita com React, Tailwind, Node.js e MongoDB.',
-        link: '#'
+        titulo: 'Kanban API',
+        descricao: 'Desenvolvi uma API RESTful para gerenciar tarefas em um sistema de Kanban, permitindo criar, mover e organizar tarefas entre colunas como "Backlog", "Em Progresso" e "Concluído".',
+        link: 'https://github.com/GabStefanoni01/Kanban-api'
       },
       gestao: {
         titulo: 'Gestão Financeira',
         descricao: 'API em Spring Boot com frontend Angular para controle de finanças pessoais. Banco de dados MySQL.',
         link: '#'
       },
-      vila: {
-        titulo: 'Vila Moraes Store',
-        descricao: 'Website moderno e responsivo com foco em usabilidade e performance. HTML, CSS e SEO avançado.',
-        link: '#'
+      ubs: {
+        titulo: 'UBS Geraldo de Paula',
+        descricao: 'Estamos desenvolvendo soluções para facilitar o acesso a informações para os funcionários da UBS Geraldo de Paula. O Objetivo principal é otimizar o fluxo de dados e garantir agilidade no atendimento.',
+        link: 'https://github.com/GabStefanoni01/ubs-repo'
+      },
+      ptec: {
+        titulo: 'Plustec Comércio e serviços técnicos',
+        descricao: 'Desenvolvi um sistema para a Assistência Técnica Plustec, empresa autorizada pela Electrolux e Continental, especializada em instalação e manutenção de eletrodomésticos. O site foi projetado para proporcionar uma navegação intuitiva, destacando os serviços oferecidos, como instalação de coifas, cooktops, fogões, lava-louças e lava e seca, além de fornecer informações sobre manutenção preventiva e agendamento de serviços. Focamos em otimizar a experiência do usuário, refletindo a qualidade e a confiabilidade da Plustec no ambiente digital.',
+        link: 'https://github.com/GabStefanoni01/Plustec'
+      },
+      tcc: {
+        titulo: 'Trabalho de conclusão de curso(TCC) DailyMed',
+        descricao: 'o Daily Med emerge como uma resposta inovadora e proativa para melhorar a gestão de medicamentos, visando proporcionar uma vida mais saudável e autônoma para a população idosa e enferma. Este projeto representa um compromisso contínuo em desenvolver soluções práticas e eficazes para um desafio de saúde significativo e em constante evolução.',
+        link: ''
       }
     };
 
@@ -57,7 +67,7 @@ document.addEventListener('DOMContentLoaded', () => {
       const conteudo = `
         <h2>${projeto.titulo}</h2>
         <p>${projeto.descricao}</p>
-        <a href="${projeto.link}" target="_blank" class="btn-ver-mais">Ver no Portfólio</a>
+        <a href="${projeto.link}" target="_blank" class="btn-ver-mais">Ver no Github</a>
       `;
       document.getElementById('conteudo-projeto').innerHTML = conteudo;
 
