@@ -1,0 +1,193 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portifólio | Gabriel Stefanoni Desenvolvedor Full Stack</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header id="main-header">
+    <div class="header-content">
+      <div class="header-left">
+        <h1 id="typewriter-nome"></h1>
+        <p id="typewriter-titulo"></p>
+        <div class="header-buttons">
+          <a href="Curriculo.pdf" download class="btn">📄 Baixar Currículo</a>
+          <a href="#contato" class="btn btn-secondary">📨 Entrar em Contato</a>
+        </div>
+      </div>
+      <div class="header-right">
+        <img src="perfil.jpg" alt="Gabriel Stefanoni" class="profile-pic" />
+      </div>
+    </div>
+  </header>
+  
+  <button id="menu-btn">☰</button>
+  
+
+  <div id="side-menu">
+    <nav>
+      <a href="#sobre" class="nav-link">Sobre</a>
+      <a href="#projetos" class="nav-link">Projetos</a>
+      <a href="#linguagens" class="nav-link">Linguagens</a>
+      <a href="#metodologias" class="nav-link">Soft Skills</a>
+      <a href="#frameworks" class="nav-link">Frameworks</a>
+      <a href="#contato" class="nav-link">Contato</a>
+    </nav>
+  </div>
+  
+
+  <main>
+    <section id="sobre" class="reveal">
+      <h2>Sobre mim</h2>
+      <p>Sou um desenvolvedor apaixonado por tecnologia, com experiência em desenvolvimento web full stack, sempre buscando soluções modernas e eficientes. Tenho habilidades com JavaScript, React, Node.js, Java, Spring Boot, MongoDB e MySQL. Meu foco está em criar interfaces intuitivas e sistemas robustos.</p>
+    </section>
+
+    <section id="projetos" class="reveal">
+      <h2>Projetos</h2>
+      <div class="project">
+        <h3 class="project-title" onclick="abrirDetalheProjeto('kanban')">Kanban App</h3>
+      </div>
+      <div class="project">
+        <h3 class="project-title" onclick="abrirDetalheProjeto('gestao')">Gestão Financeira</h3>
+      </div>
+      <div class="project">
+        <h3 class="project-title" onclick="abrirDetalheProjeto('vila')">Vila Moraes Store</h3>
+      </div>
+    </section>
+
+    <section id="linguagens clickable" class="reveal">
+        <h2>Linguagens</h2>
+        <div class="linguagens-linha">
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML">
+            <p>HTML</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS">
+            <p>CSS</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+            <p>JavaScript</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+            <p>TypeScript</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+            <p>Java</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" alt="PHP">
+            <p>PHP</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+            <p>Python</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL">
+            <p>SQL</p>
+          </div>
+        </div>
+      </section>
+      <section id="metodologias clickable" class="reveal">
+        <h2>Metodologias & Soft Skills</h2>
+        <div class="linguagens-linha">
+          <div class="linguagem">
+            <img src="icons/scrum.png" alt="Scrum">
+            <p>Scrum</p>
+          </div>
+          <div class="linguagem">
+            <img src="icons/agile.png" alt="Agile">
+            <p>Agile</p>
+          </div>
+          <div class="linguagem">
+            <img src="icons/comunicacao.png" alt="Comunicação">
+            <p>Comunicação</p>
+          </div>
+          <div class="linguagem">
+            <img src="icons/colaboracao.png" alt="Colaboração">
+            <p>Colaboração</p>
+          </div>
+          <div class="linguagem">
+            <img src="icons/problemas.png" alt="Resolução de Problemas">
+            <p>Resolução de Problemas</p>
+          </div>
+        </div>
+      </section>
+      <section id="frameworks" class="reveal">
+        <h2>Frameworks</h2>
+        <div class="linguagens-linha">
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React">
+            <p>React</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+            <p>Angular</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" alt="Vue.js">
+            <p>Vue.js</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nextjs/nextjs-original.svg" alt="Next.js">
+            <p>Next.js</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
+            <p>Spring Boot</p>
+          </div>
+          <div class="linguagem">
+            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+            <p>Flutter</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="contato" class="reveal">
+        <h2>Contato</h2>
+        <p>Entre em contato comigo pelos seguintes meios:</p>
+        <div class="contact-info">
+          <a href="https://www.linkedin.com/in/gabrielstefanoni/?lipi=urn%3Ali%3Apage%3Ad_flagship3_feed%3BFoLB9xtyT9aS7cAz0o%2Fjsw%3D%3D" target="_blank" class="contact-link">
+            <i class="fab fa-linkedin contact-icon"></i>
+            LinkedIn
+          </a>
+          <a href="mailto:gabrielstefanoni00@gmail.com" class="contact-link">
+            <i class="fas fa-envelope contact-icon"></i>
+            E-mail
+          </a>
+          <a href="https://github.com/GabStefanoni01" target="_blank" class="contact-link">
+            <i class="fab fa-github contact-icon"></i>
+            GitHub
+          </a>
+        </div>
+      </section>
+      <section></section>
+      <section></section>
+  </main>
+
+  <div id="overlay"></div>
+  <div id="projeto-detalhe">
+    <div class="conteudo">
+      <span class="fechar" onclick="fecharDetalheProjeto()">&times;</span>
+      <div id="conteudo-projeto"></div>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Gabriel Stefanoni. Todos os direitos reservados.
+  </footer>
+
+  <button id="topBtn" title="Voltar ao topo">↑</button>
+
+  <script src="script.js"></script>
