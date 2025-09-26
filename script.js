@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', () => {
        calc: {
         titulo: 'Calculadora',
         descricao: 'Realizei o desenvolvimento dessa Calculadora em Python em aula na materia de estrutura de dados em 2025',
-        link: ''
+        link: 'https://github.com/GabStefanoni01/Calculadora'
       }
     };
 
