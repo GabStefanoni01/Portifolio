@@ -40,10 +40,15 @@ document.addEventListener('DOMContentLoaded', () => {
         descricao: 'Desenvolvi uma API RESTful para gerenciar tarefas em um sistema de Kanban, permitindo criar, mover e organizar tarefas entre colunas como "Backlog", "Em Progresso" e "Concluído".',
         link: 'https://github.com/GabStefanoni01/Kanban-api'
       },
-      gestao: {
+      gestaofi: {
         titulo: 'Gestão Financeira',
         descricao: 'API em Spring Boot com frontend Angular para controle de finanças pessoais. Banco de dados MySQL.',
-        link: '#'
+        link: 'https://github.com/GabStefanoni01/GestaoFinanceiraCompleto'
+      },
+       gestaoes: {
+        titulo: 'Gestão Escolar',
+        descricao: 'Este é uma API completo de gestão escolar desenvolvido com Spring Boot Ele permite o gerenciamento de alunos, professores, turmas, disciplinas, notas e frequência de forma simples e eficiente.',
+        link: 'https://github.com/GabStefanoni01/GestaoEscolaar'
       },
       ubs: {
         titulo: 'UBS Geraldo de Paula',
@@ -58,6 +63,11 @@ document.addEventListener('DOMContentLoaded', () => {
       tcc: {
         titulo: 'Trabalho de conclusão de curso(TCC) DailyMed',
         descricao: 'o Daily Med emerge como uma resposta inovadora e proativa para melhorar a gestão de medicamentos, visando proporcionar uma vida mais saudável e autônoma para a população idosa e enferma. Este projeto representa um compromisso contínuo em desenvolver soluções práticas e eficazes para um desafio de saúde significativo e em constante evolução.',
+        link: ''
+      },
+       calculdora: {
+        titulo: 'Calculadora',
+        descricao: 'Realizei o desenvolvimento dessa Calculadora em Python em aula na materia de estrutura de dados em 2025',
         link: ''
       }
     };
@@ -110,7 +120,7 @@ linguagens.forEach(linguagem => {
   });
 });
 const nomeTexto = "Gabriel Stefanoni";
-const tituloTexto = "Full Stack Developer <:";
+const tituloTexto = "Software Engineer Backend <:";
 const nomeElemento = document.getElementById("typewriter-nome");
 const tituloElemento = document.getElementById("typewriter-titulo");
 
