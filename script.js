@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', () => {
         descricao: 'o Daily Med emerge como uma resposta inovadora e proativa para melhorar a gestão de medicamentos, visando proporcionar uma vida mais saudável e autônoma para a população idosa e enferma. Este projeto representa um compromisso contínuo em desenvolver soluções práticas e eficazes para um desafio de saúde significativo e em constante evolução.',
         link: ''
       },
-       calculdora: {
+       calc: {
         titulo: 'Calculadora',
         descricao: 'Realizei o desenvolvimento dessa Calculadora em Python em aula na materia de estrutura de dados em 2025',
         link: ''
